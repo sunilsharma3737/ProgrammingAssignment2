@@ -22,7 +22,7 @@ inv <- NULL
 
 cacheSolve <- function(a, ...) {
 
-  ## This function will return a matrix that will be the inverse of 'x'
+  ## This function will return a matrix that will be the inverse of 'a'
   
   inv <- a$gettingInverse()
   if (!is.null(inv)) {
